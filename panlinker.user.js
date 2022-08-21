@@ -533,7 +533,7 @@
         async initDialog() {
             let result = await Swal.fire({
                 title: pan.init[0],
-                html: `<div><img style="width: 250px;margin-bottom: 10px;" src="${pan.img}" alt="${pan.img}"><input class="swal2-input" id="init" type="text" placeholder="${pan.init[1]}"></div>`,
+                html: `<div>直接点确定即可使用</div>`,
                 allowOutsideClick: false,
                 showCloseButton: true,
                 confirmButtonText: '确定'
